@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: text-header-b;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: text-header-s;
+  line-height: 45px;
+}
+
+.h3 {
+  font-size: text-19;
+}
+
+.h4 {
+  font-size: text-18;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  background: white;
+  font-size: text;
+  line-height: 22px;
+  color: black;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1210px;
+  padding: 0 15px;
+  margin: 0px auto;
+}
