@@ -29,31 +29,30 @@ h6 {
 
 .h1 {
   font-weight: 700;
-  font-size: text-header-b;
+  font-size: 54px;
 }
 
 .h2 {
   font-weight: 700;
-  font-size: text-header-s;
+  font-size: 40px;
   line-height: 45px;
 }
 
 .h3 {
-  font-size: text-19;
+  font-size: 19px;
 }
 
 .h4 {
-  font-size: text-18;
+  font-size: 18px;
 }
 
 html,
 body {
   height: 100%;
-  line-height: 1;
-  background: white;
-  font-size: text;
+  background: #FFFFFF;
+  font-size: 15px;
   line-height: 22px;
-  color: black;
+  color: #000000;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
@@ -63,4 +62,44 @@ body {
   max-width: 1210px;
   padding: 0 15px;
   margin: 0px auto;
+}
+
+.button-violet-radius {
+  background: #6F2CFF;
+  height: 40px;
+  color: #FFFFFF;
+}
+
+.button-violet-none-radius {
+  background: #6F2CFF;
+  width: 187px;
+  height: 45px;
+  border-radius: 0px 27.5px 27.5px 0px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 13px 45px 11px 45px;
+}
+
+.button-white-radius {
+  background: #FFFFFF;
+  width: 187px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #6F2CFF;
+  padding: 11px 45px 14px 45px;
+}
+
+.button__arrow {
+  background: inherit;
+  width: 50px;
+  height: 50px;
+}
+
+.button__arrow img {
+  width: 25.88px;
+  height: 45.86px;
 }
