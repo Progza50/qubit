@@ -1,0 +1,35 @@
+.button-violet-radius {
+	background: $violet;
+	height: 40px;
+	color: $white;
+}
+.button-violet-none-radius {
+	background: $violet;
+	width: 187px;
+	height: 45px;
+	border-radius: 0px 27.5px 27.5px 0px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 21px;
+	color: $white;
+	padding: 13px 45px 11px 45px;
+}
+.button-white-radius {
+	background: $white;
+	width: 187px;
+	height: 40px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 15px;
+	color: $violet;
+	padding: 11px 45px 14px 45px;
+}
+.button__arrow {
+	background: inherit;
+	width: 50px;
+	height: 50px;
+}
+.button__arrow img {
+	width: 25.88px; 
+	height: 45.86px;
+}
