@@ -1,33 +1,34 @@
 .button {
 	height: 40px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 15px;
+	padding: 11px 45px 14px 45px;
+	cursor: pointer;
 }
 .button_violet {
 	background: $violet;
 	color: $white;
 }
+.button_violet:hover {
+	background: $violet-hover;
+}
 .button_white {
 	background: $white;
 	color: $violet;
 }
+.button_white:hover {
+	border: $violet-hover solid 1px;
+}
 .button_rounded {
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 15px;
-	padding: 11px 45px 14px 45px;
+	border-radius: 30px;
 }
-.button_norounded {
-	height: 45px;
+.button_rounded_right {
 	border-radius: 0px 27.5px 27.5px 0px;
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 21px;
-	padding: 13px 45px 11px 45px;
 }
-.button_arrow {
-	background: inherit;
-	height: 50px;
-}
-.button_arrow img {
-	width: 25.88px; 
-	height: 45.86px;
+.menu__button {
+	border-radius: 20px;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 11px 34px 15px 34px;
 }

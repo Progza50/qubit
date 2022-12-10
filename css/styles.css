@@ -64,42 +64,44 @@ body {
   margin: 0px auto;
 }
 
-.button-violet-radius {
-  background: #6F2CFF;
-  height: 40px;
-  color: #FFFFFF;
-}
-
-.button-violet-none-radius {
-  background: #6F2CFF;
-  width: 187px;
-  height: 45px;
-  border-radius: 0px 27.5px 27.5px 0px;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 21px;
-  color: #FFFFFF;
-  padding: 13px 45px 11px 45px;
-}
-
-.button-white-radius {
-  background: #FFFFFF;
-  width: 187px;
+.button {
   height: 40px;
   font-weight: 400;
   font-size: 15px;
   line-height: 15px;
-  color: #6F2CFF;
   padding: 11px 45px 14px 45px;
+  cursor: pointer;
 }
 
-.button__arrow {
-  background: inherit;
-  width: 50px;
-  height: 50px;
+.button_violet {
+  background: #6F2CFF;
+  color: #FFFFFF;
 }
 
-.button__arrow img {
-  width: 25.88px;
-  height: 45.86px;
+.button_violet:hover {
+  background: #411a94;
+}
+
+.button_white {
+  background: #FFFFFF;
+  color: #6F2CFF;
+}
+
+.button_white:hover {
+  border: #411a94 solid 1px;
+}
+
+.button_rounded {
+  border-radius: 30px;
+}
+
+.button_rounded_right {
+  border-radius: 0px 27.5px 27.5px 0px;
+}
+
+.menu__button {
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 11px 34px 15px 34px;
 }
