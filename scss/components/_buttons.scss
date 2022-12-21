@@ -19,6 +19,7 @@
 }
 .button_white:hover {
 	border: $violet-hover solid 1px;
+	box-sizing: border-box;
 }
 .button_rounded {
 	border-radius: 30px;
@@ -28,6 +29,16 @@
 }
 .menu__button {
 	border-radius: 20px;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 11px 34px 15px 34px;
+}
+.button_email {
+	height: 45px;
+	line-height: 21px;
+	padding: 13px 45px 11px 45px;
+}
+.ecosystem__button {
 	font-size: 14px;
 	line-height: 14px;
 	padding: 11px 34px 15px 34px;
