@@ -64,6 +64,18 @@ body {
   margin: 0px auto;
 }
 
+.input {
+  height: 45px;
+  width: 268px;
+  background: #FFFFFF;
+  border: 1px solid #6F2CFF;
+  border-radius: 27.5px 0px 0px 27.5px;
+  box-sizing: border-box;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.27);
+  padding: 13px 26px 11px 26px;
+}
+
 .button {
   height: 40px;
   font-weight: 400;
@@ -117,4 +129,18 @@ body {
   font-size: 14px;
   line-height: 14px;
   padding: 11px 34px 15px 34px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 36px;
+  max-width: 821px;
+  padding: 0px 20px;
+}
+
+.li {
+  font-size: 14px;
+  line-height: 14px;
+  color: #1C1C1C;
 }
