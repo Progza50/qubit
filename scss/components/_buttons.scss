@@ -1,0 +1,45 @@
+.button {
+	height: 40px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 15px;
+	padding: 11px 45px 14px 45px;
+	cursor: pointer;
+}
+.button_violet {
+	background: $violet;
+	color: $white;
+}
+.button_violet:hover {
+	background: $violet-hover;
+}
+.button_white {
+	background: $white;
+	color: $violet;
+}
+.button_white:hover {
+	border: $violet-hover solid 1px;
+	box-sizing: border-box;
+}
+.button_rounded {
+	border-radius: 30px;
+}
+.button_rounded_right {
+	border-radius: 0px 27.5px 27.5px 0px;
+}
+.menu__button {
+	border-radius: 20px;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 11px 34px 15px 34px;
+}
+.button_email {
+	height: 45px;
+	line-height: 21px;
+	padding: 13px 45px 11px 45px;
+}
+.ecosystem__button {
+	font-size: 14px;
+	line-height: 14px;
+	padding: 11px 34px 15px 34px;
+}
