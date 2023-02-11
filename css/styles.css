@@ -64,18 +64,6 @@ body {
   margin: 0px auto;
 }
 
-.input {
-  height: 45px;
-  width: 268px;
-  background: #FFFFFF;
-  border: 1px solid #6F2CFF;
-  border-radius: 27.5px 0px 0px 27.5px;
-  box-sizing: border-box;
-  line-height: 21px;
-  color: rgba(0, 0, 0, 0.27);
-  padding: 13px 26px 11px 26px;
-}
-
 .button {
   height: 40px;
   font-weight: 400;
@@ -96,11 +84,12 @@ body {
 
 .button_white {
   background: #FFFFFF;
+  border: 1px solid #FFFFFF;
   color: #6F2CFF;
 }
 
 .button_white:hover {
-  border: #411a94 solid 1px;
+  border: 1px solid #411a94;
   box-sizing: border-box;
 }
 
@@ -112,20 +101,14 @@ body {
   border-radius: 0px 27.5px 27.5px 0px;
 }
 
-.menu__button {
-  border-radius: 20px;
-  font-size: 14px;
-  line-height: 14px;
-  padding: 11px 34px 15px 34px;
-}
-
 .button_email {
   height: 45px;
   line-height: 21px;
   padding: 13px 45px 11px 45px;
 }
 
-.ecosystem__button {
+.menu__button {
+  border-radius: 20px;
   font-size: 14px;
   line-height: 14px;
   padding: 11px 34px 15px 34px;
@@ -143,4 +126,62 @@ body {
   font-size: 14px;
   line-height: 14px;
   color: #1C1C1C;
+}
+
+.input {
+  height: 45px;
+  width: 268px;
+  background: #FFFFFF;
+  border: 1px solid #6F2CFF;
+  border-radius: 27.5px 0px 0px 27.5px;
+  box-sizing: border-box;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.27);
+  padding: 13px 26px 11px 26px;
+}
+
+.grow__card {
+  height: 102px;
+  width: 100%;
+}
+
+.grow__card_data {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.grow__card_text {
+  margin: 15px 0px 0px;
+}
+
+.commerce__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 194px;
+  max-width: 320px;
+  width: 22.22%;
+}
+
+.commerce__card_icon {
+  height: 50px;
+  width: 50px;
+}
+
+.commerce__card_title {
+  font-weight: 700;
+  line-height: 23px;
+  margin: 42px 0px 0px;
+}
+
+.commerce__card_text {
+  line-height: 15px;
+  margin: 16px 0px 0px;
+}
+
+.ecosystem__button {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 11px 34px 15px 34px;
 }

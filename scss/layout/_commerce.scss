@@ -1,0 +1,21 @@
+.commerce__card {
+	@include flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 194px;
+	max-width: 320px;
+	width: 22.22%;
+}
+.commerce__card_icon {
+	height: 50px;
+	width: 50px;
+}
+.commerce__card_title {
+	font-weight: 700;
+	line-height: 23px;
+	margin: 42px 0px 0px;
+}
+.commerce__card_text {
+	line-height: 15px;
+	margin: 16px 0px 0px;
+}
