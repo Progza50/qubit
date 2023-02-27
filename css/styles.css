@@ -1,0 +1,187 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 54px;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.h3 {
+  font-size: 19px;
+}
+
+.h4 {
+  font-size: 18px;
+}
+
+html,
+body {
+  height: 100%;
+  background: #FFFFFF;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1210px;
+  padding: 0 15px;
+  margin: 0px auto;
+}
+
+.button {
+  height: 40px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 11px 45px 14px 45px;
+  cursor: pointer;
+}
+
+.button_violet {
+  background: #6F2CFF;
+  color: #FFFFFF;
+}
+
+.button_violet:hover {
+  background: #411a94;
+}
+
+.button_white {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: #6F2CFF;
+}
+
+.button_white:hover {
+  border: 1px solid #411a94;
+  box-sizing: border-box;
+}
+
+.button_rounded {
+  border-radius: 30px;
+}
+
+.button_rounded_right {
+  border-radius: 0px 27.5px 27.5px 0px;
+}
+
+.button_email {
+  height: 45px;
+  line-height: 21px;
+  padding: 13px 45px 11px 45px;
+}
+
+.menu__button {
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 11px 34px 15px 34px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 36px;
+  max-width: 821px;
+  padding: 0px 20px;
+}
+
+.li {
+  font-size: 14px;
+  line-height: 14px;
+  color: #1C1C1C;
+}
+
+.input {
+  height: 45px;
+  width: 268px;
+  background: #FFFFFF;
+  border: 1px solid #6F2CFF;
+  border-radius: 27.5px 0px 0px 27.5px;
+  box-sizing: border-box;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.27);
+  padding: 13px 26px 11px 26px;
+}
+
+.grow__card {
+  height: 102px;
+  width: 100%;
+}
+
+.grow__card_data {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.grow__card_text {
+  margin: 15px 0px 0px;
+}
+
+.commerce__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 194px;
+  max-width: 320px;
+  width: 22.22%;
+}
+
+.commerce__card_icon {
+  height: 50px;
+  width: 50px;
+}
+
+.commerce__card_title {
+  font-weight: 700;
+  line-height: 23px;
+  margin: 42px 0px 0px;
+}
+
+.commerce__card_text {
+  line-height: 15px;
+  margin: 16px 0px 0px;
+}
+
+.ecosystem__button {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 11px 34px 15px 34px;
+}

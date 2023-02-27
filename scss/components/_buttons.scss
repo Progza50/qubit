@@ -1,0 +1,35 @@
+.button {
+	height: 40px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 15px;
+	padding: 11px 45px 14px 45px;
+	cursor: pointer;
+}
+.button_violet {
+	background: $violet;
+	color: $white;
+}
+.button_violet:hover {
+	background: $violet-hover;
+}
+.button_white {
+	background: $white;
+	border: 1px solid $white;
+	color: $violet;
+}
+.button_white:hover {
+	border: 1px solid $violet-hover;
+	box-sizing: border-box;
+}
+.button_rounded {
+	border-radius: 30px;
+}
+.button_rounded_right {
+	border-radius: 0px 27.5px 27.5px 0px;
+}
+.button_email {
+	height: 45px;
+	line-height: 21px;
+	padding: 13px 45px 11px 45px;
+}
