@@ -1,0 +1,47 @@
+.specializations__card {
+	height: 199px;
+	max-width: 460px;
+	width: 31.94%;
+	background-color: $dark-indigo;
+	border-radius: 8px 10px 10px 8px;
+}
+.specializations__content {
+	@include flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	min-height: 109px;
+	max-width: 400px;
+	width: 100%;
+	margin: 30.25px 30px 0px;
+}
+.specializations__card-head {
+	@include flex;
+	height: 50px;
+	width: 100%;
+}
+.specializations__card-icon {
+	height: 50px;
+	width: 50px;
+}
+.specializations__card-icon img {
+	height: 50px;
+	width: 50px;
+}
+.specializations__card-tytle {
+	color: $white;
+	font-weight: 700;
+	line-height: 25px;
+	align-items: center;
+	padding: 0px 0px 0px 20px;
+}
+.specializations__card-text {
+	color: $white;
+}
+.specializations__card-link {
+	line-height: 25px;
+	color: $white;
+	height: 22px;
+	width: 358px;
+	border-bottom: 2px solid $white;
+	margin: 10px 0px 25px 30px;
+}

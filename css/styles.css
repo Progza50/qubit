@@ -141,21 +141,29 @@ body {
 }
 
 .grow__card {
-  height: 102px;
+  height: 220px;
   width: 100%;
+  max-width: 309px;
 }
 
-.grow__card_data {
+.grow__card-content {
+  height: 102px;
+  max-width: 225px;
+  width: 100%;
+  padding: 10px 15.5px 0.25px 0px;
+}
+
+.grow__card-data {
   font-weight: 700;
   font-size: 40px;
   line-height: 45px;
 }
 
-.grow__card_text {
+.grow__card-text {
   margin: 15px 0px 0px;
 }
 
-.commerce__card {
+.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,20 +172,126 @@ body {
   width: 22.22%;
 }
 
-.commerce__card_icon {
+.card__icon {
   height: 50px;
   width: 50px;
 }
 
-.commerce__card_title {
+.card__title {
   font-weight: 700;
   line-height: 23px;
   margin: 42px 0px 0px;
 }
 
-.commerce__card_text {
-  line-height: 15px;
-  margin: 16px 0px 0px;
+.card__text {
+  line-height: 22px;
+  padding: 16px 3px 3px;
+}
+
+.possibilities__card {
+  width: 19.17%;
+  max-width: 276px;
+  height: 173px;
+}
+
+.possibilities__card-title {
+  line-height: 45px;
+  margin: 4px 0px 0px;
+}
+
+.possibilities__card-text {
+  padding: 0px;
+  margin: 11px 0px 0px;
+}
+
+.brands__card {
+  height: 438px;
+  max-width: 319.83px;
+  width: 22.21%;
+}
+
+.brands__img {
+  width: 320px;
+  height: 205px;
+}
+
+.brands__img img {
+  width: 100%;
+  height: auto;
+}
+
+.brands__logo {
+  width: 150px;
+  height: 35px;
+  margin: 25px 0px 0px;
+}
+
+.brands__logo img {
+  width: 100%;
+  height: auto;
+}
+
+.brands__text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6F2CFF;
+  padding: 0px;
+  margin: 25px 0px 0px;
+}
+
+.specializations__card {
+  height: 199px;
+  max-width: 460px;
+  width: 31.94%;
+  background-color: #17002E;
+  border-radius: 8px 10px 10px 8px;
+}
+
+.specializations__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 109px;
+  max-width: 400px;
+  width: 100%;
+  margin: 30.25px 30px 0px;
+}
+
+.specializations__card-head {
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+
+.specializations__card-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.specializations__card-icon img {
+  height: 50px;
+  width: 50px;
+}
+
+.specializations__card-tytle {
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 25px;
+  align-items: center;
+  padding: 0px 0px 0px 20px;
+}
+
+.specializations__card-text {
+  color: #FFFFFF;
+}
+
+.specializations__card-link {
+  line-height: 25px;
+  color: #FFFFFF;
+  height: 22px;
+  width: 358px;
+  border-bottom: 2px solid #FFFFFF;
+  margin: 10px 0px 25px 30px;
 }
 
 .ecosystem__button {
