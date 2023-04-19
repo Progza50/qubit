@@ -107,27 +107,126 @@ body {
   padding: 13px 45px 11px 45px;
 }
 
-.menu__button {
-  border-radius: 20px;
-  font-size: 14px;
-  line-height: 14px;
-  padding: 11px 34px 15px 34px;
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  z-index: 50;
+}
+
+.menu__logo {
+  height: 24px;
+  width: 79px;
+  margin: 0px 0px 0px 30px;
 }
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   height: 36px;
   max-width: 821px;
-  padding: 0px 20px;
+  width: 57.01%;
+  margin: 0px 0px 0px 137px;
 }
 
 .li {
   font-size: 14px;
   line-height: 14px;
   color: #1C1C1C;
+  padding: 0px 20px;
 }
 
+.menu__button {
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0px 0px 0px 106px;
+  padding: 11px 34px 15px 34px;
+}
+
+.menu__link {
+  margin: 0px 0px 0px 38px;
+}
+
+@media (max-width: 1400px) {
+  .nav {
+    margin: 0px 0px 0px 50px;
+  }
+  .menu__button {
+    margin: 0px 0px 0px 50px;
+  }
+  .menu__link {
+    margin: 0px 0px 0px 20px;
+  }
+}
+@media (max-width: 1246px) {
+  .menu {
+    height: 100px;
+  }
+  .nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 100px;
+  }
+}
+@media (max-width: 1030px) {
+  .nav {
+    margin: 0px 0px 0px 30px;
+  }
+  .menu__button {
+    margin: 0px 0px 0px 30px;
+  }
+}
+@media (max-width: 934px) {
+  .nav {
+    max-width: 470px;
+  }
+}
+@media (max-width: 870px) {
+  .menu {
+    flex-direction: column;
+    min-height: 280px;
+    width: 100%;
+  }
+  .menu__logo {
+    margin: 30px 0px 0px;
+  }
+  .nav {
+    margin: 30px 0px 0px;
+  }
+  .menu__button {
+    margin: 30px 0px 0px;
+  }
+  .menu__link {
+    margin: 20px 0px 0px;
+  }
+}
+@media (max-width: 522px) {
+  .menu {
+    min-height: 370px;
+  }
+  .menu__logo {
+    margin: 30px 0px 0px;
+  }
+  .nav {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 10px;
+    width: 100%;
+    min-height: 160px;
+  }
+  .menu__button {
+    margin: 30px 0px 0px;
+  }
+  .menu__link {
+    margin: 20px 0px 0px;
+  }
+}
 .input {
   height: 45px;
   width: 268px;
