@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -107,7 +108,7 @@ body {
   padding: 13px 45px 11px 45px;
 }
 
-.menu {
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +119,7 @@ body {
   z-index: 50;
 }
 
-.menu__logo {
+.header__logo {
   height: 24px;
   width: 79px;
   margin: 0px 0px 0px 30px;
@@ -141,7 +142,7 @@ body {
   padding: 0px 20px;
 }
 
-.menu__button {
+.header__button {
   border-radius: 20px;
   font-size: 14px;
   line-height: 14px;
@@ -149,7 +150,7 @@ body {
   padding: 11px 34px 15px 34px;
 }
 
-.menu__link {
+.header__link {
   margin: 0px 0px 0px 38px;
 }
 
@@ -157,15 +158,15 @@ body {
   .nav {
     margin: 0px 0px 0px 50px;
   }
-  .menu__button {
+  .header__button {
     margin: 0px 0px 0px 50px;
   }
-  .menu__link {
+  .header__link {
     margin: 0px 0px 0px 20px;
   }
 }
 @media (max-width: 1246px) {
-  .menu {
+  .header {
     height: 100px;
   }
   .nav {
@@ -178,7 +179,7 @@ body {
   .nav {
     margin: 0px 0px 0px 30px;
   }
-  .menu__button {
+  .header__button {
     margin: 0px 0px 0px 30px;
   }
 }
@@ -188,29 +189,29 @@ body {
   }
 }
 @media (max-width: 870px) {
-  .menu {
+  .header {
     flex-direction: column;
     min-height: 280px;
     width: 100%;
   }
-  .menu__logo {
+  .header__logo {
     margin: 30px 0px 0px;
   }
   .nav {
     margin: 30px 0px 0px;
   }
-  .menu__button {
+  .header__button {
     margin: 30px 0px 0px;
   }
-  .menu__link {
+  .header__link {
     margin: 20px 0px 0px;
   }
 }
 @media (max-width: 522px) {
-  .menu {
+  .header {
     min-height: 370px;
   }
-  .menu__logo {
+  .header__logo {
     margin: 30px 0px 0px;
   }
   .nav {
@@ -220,13 +221,19 @@ body {
     width: 100%;
     min-height: 160px;
   }
-  .menu__button {
+  .header__button {
     margin: 30px 0px 0px;
   }
-  .menu__link {
+  .header__link {
     margin: 20px 0px 0px;
   }
 }
+.container {
+  display: flex;
+  width: 1210px;
+  margin: auto;
+}
+
 .input {
   height: 45px;
   width: 268px;
@@ -237,6 +244,13 @@ body {
   line-height: 21px;
   color: rgba(0, 0, 0, 0.27);
   padding: 13px 26px 11px 26px;
+}
+
+.main {
+  height: 695px;
+  width: 100%;
+  background-image: url("c:Users\ametiWEB•qubitimgmain\1.png") no-repeat left top;
+  background-size: auto;
 }
 
 .grow__card {
