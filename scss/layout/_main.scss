@@ -1,24 +1,105 @@
 .main {
 	height: 695px;
 	width: 100%;
-	background-image: url("c:\Users\ameti\WEB\2022\qubit\img\main\1.png") no-repeat left top;
-	background-size: auto;
+	background: $pink;
 }
 .main__container {
-
+	height: 100%;
+	background-image: url("../../img/main/1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
-.introduction {
-
+.content {
+	height: 364px;
+	width: 454px;
+	padding: 134px 0px 0px;
 }
-.title {
-
+.main__introduction {
+	line-height: 21px;
 }
-.text {
-
+.main__title1 {
+	line-height: 61px;
+	margin: 19px 0px 0px;
 }
-.main__input {
-
+.main__title2 {
+	color: $violet;
+	line-height: 54px;
+	margin: 19px 0px 0px;
 }
-.main__button{
-
+.main__text {
+	width: 450px;
+	line-height: 30px;
+	margin: 24px 0px 0px;
+}
+.bold {
+	font-weight: 900;
+}
+.main__form {
+	@include flex;
+	height: 45px;
+	width: 453px;
+	margin: 30px 0px 0px;
+}
+@media (max-width: 1400px) {
+	.main {
+		height: 640px;
+	}
+}
+@media (max-width: 1246px) {
+	.main {
+		height: 565px;
+	}
+	.content {
+		padding: 100px 0px 0px;
+	}
+	.main__button {
+		top: 448px;
+	}
+}
+@media (max-width: 934px) {
+	.main {
+		height: 500px;
+	}
+	.main__container {
+		background-image: none;
+		@include flex;
+		justify-content: center;
+	}
+	.content {
+		padding: 50px 0px 0px;
+	}
+}
+@media (max-width: 870px) {
+	.main {
+		margin: 30px 0px 0px;
+	}
+}
+@media (max-width: 512px) {
+	.main {
+		height: 450px;
+	}
+	.content {
+		min-height: 364px;
+		max-width: 454px;
+		width: 100%;
+	}
+	.h1 {
+		font-size: 40px;
+	}
+	.main__title1 {
+		margin: 15px 0px 0px;
+	}
+	.main__title2 {
+		margin: 0px;
+	}
+	.main__text {
+		margin: 15px 0px 0px;
+	}
+	.main__form {
+		width: 420px;
+		margin: 20px 0px 0px;
+	}
+	.input {
+		width: 235px;
+	}
 }
