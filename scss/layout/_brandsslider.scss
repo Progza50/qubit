@@ -1,0 +1,36 @@
+.brandsslider {}
+
+.brandsslider__card {
+	height: 438px;
+	max-width: 319.83px;
+	width: 22.21%;
+}
+
+.brandsslider__img {
+	width: 320px;
+	height: 205px;
+}
+
+.brandsslider__img img {
+	width: 100%;
+	height: auto;
+}
+
+.brandsslider__logo {
+	width: 150px;
+	height: 35px;
+	margin: 25px 0px 0px;
+}
+
+.brandsslider__logo img {
+	width: 100%;
+	height: auto;
+}
+
+.brandsslider__text {
+	font-size: 18px;
+	font-weight: 700;
+	color: $violet;
+	padding: 0px;
+	margin: 25px 0px 0px;
+}

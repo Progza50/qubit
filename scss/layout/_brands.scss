@@ -1,32 +1,89 @@
 .brands {
-
-}
-.brands__card {
-	height: 438px;
-	max-width: 319.83px;
-	width: 22.21%;
-}
-.brands__img {
-	width: 320px;
-	height: 205px;
-}
-.brands__img img {
+	min-height: 204px;
 	width: 100%;
-	height: auto;
+}
+.brands__container {
+	@include flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+}
+.brands__title {
+	font-weight: 700;
+	line-height: 30px;
+	padding: 35px 0px 0px;
 }
 .brands__logo {
-	width: 150px;
-	height: 35px;
-	margin: 25px 0px 0px;
-}
-.brands__logo img {
+	@include flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 15px;
+	height: 70px;
 	width: 100%;
-	height: auto;
+	margin: 15px 0px 0px;
 }
-.brands__text {
-	font-size: 18px;
+.brands__logo_barbour {
+	height: 42px;
+	width: 102px;
+}
+.brands__logo_kate-spade {
+	height: 42px;
+	width: 97px;
+}
+.brands__logo_lvmh {
+	height: 42px;
+	width: 95px;
+}
+.brands__logo_estee-lauder {
+	height: 37px;
+	width: 115px;
+}
+.brands__logo_tjx {
+	height: 42px;
+	width: 53px;
+}
+.brands__logo_river-island {
+	height: 37px;
+	width: 115px;
+}
+.brands__logo_radisson {
+	height: 42px;
+	width: 102px;
+}
+.brands__logo_g-star-raw {
+	height: 37px;
+	width: 115px;
+}
+.brands__link {
+	font-size: 16px;
+	line-height: 24px;
 	font-weight: 700;
-	color: $violet;
-	padding: 0px;
-	margin: 25px 0px 0px;
+	width: 170px;
+	border-bottom: 1px solid $black;
+	margin: 12px 0px 0px;
+}
+@media (max-width: 928px) {
+	.brands__logo {
+		height: 100px;
+		flex-wrap: wrap;
+		justify-content: center;
+		row-gap: 15px;
+	}
+	.brands__link {
+		margin: 20px 0px 0px;
+	}
+}
+@media (max-width: 512px) {
+	.brands__logo {
+		@include flex;
+		flex-direction: column;
+		align-items: center;
+		column-gap: 0px;
+		height: 100%;
+		width: auto;
+		margin: 15px 0px 0px;
+	}
+	.brands__link {
+		margin: 30px 0px 0px;
+	}
 }
