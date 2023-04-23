@@ -1,3 +1,44 @@
-.commerce__card {
+.commerce {
+	height: 537px;
+	width: 100%;
+}
+.commerce__container {
 
+}
+.commerce__title {
+	text-align: center;
+	padding: 94px 0px 0px;
+}
+.commerce__subtitle {
+	line-height: 30px;
+	text-align: center;
+	margin: 22px 0px 0px;
+}
+.cards {
+	@include flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 58px 0px 94px 0px;
+}
+@media (max-width: 928px) {
+	.commerce__title {
+		padding: 60px 0px 0px;
+	}
+}
+@media (max-width: 794px) {
+	.commerce {
+		min-height: 1025px;
+	}
+	.cards {
+		flex-direction: column;
+		row-gap: 50px;
+		margin: 58px 0px 0px;
+	}
+	.card {
+		width: 100%;
+	}
+	.card__title {
+		height: 172px;
+		margin: 20px 0px 0px;
+	}
 }
