@@ -58,6 +58,7 @@ body {
 }
 
 .container {
+  height: 100%;
   width: 100%;
   max-width: 1240px;
   padding: 0 15px;
@@ -246,7 +247,6 @@ body {
 }
 
 .main__container {
-  height: 100%;
   background-image: url("../../img/main/1.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -373,7 +373,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
 }
 
 .brands__title {
@@ -467,8 +466,6 @@ body {
 
 .grow__container {
   display: flex;
-  height: 100%;
-  width: 100%;
   max-width: 1260px;
 }
 
@@ -696,10 +693,6 @@ body {
   background-color: #f5f5f5;
 }
 
-.power__container {
-  height: 100%;
-}
-
 .power__title {
   text-align: center;
   padding: 94px 0px 0px;
@@ -772,10 +765,33 @@ body {
     margin: 0px auto;
   }
 }
+.possibilities {
+  height: 845px;
+  width: 100%;
+}
+
+.possibilities__title {
+  text-align: center;
+  padding: 93.75px 0px 0px;
+}
+
+.possibilities__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  row-gap: 50px;
+  height: 528px;
+  width: 100%;
+  max-width: 1020px;
+  margin: 28.25px auto 150px;
+}
+
 .possibilities__card {
-  width: 19.17%;
-  max-width: 276px;
+  width: 276px;
   height: 173px;
+  margin: 30px 0px 0px;
 }
 
 .possibilities__card-title {
@@ -784,10 +800,39 @@ body {
 }
 
 .possibilities__card-text {
+  min-height: 66px;
   padding: 0px;
   margin: 11px 0px 0px;
 }
 
+@media (max-width: 887px) {
+  .possibilities {
+    height: 930px;
+  }
+  .possibilities__title {
+    padding: 70px 0px 0px;
+  }
+  .possibilities__cards {
+    justify-content: space-around;
+    row-gap: 30px;
+    height: 710px;
+    margin: 28.25px auto 30px;
+  }
+}
+@media (max-width: 596px) {
+  .possibilities {
+    height: 1590px;
+  }
+  .possibilities__cards {
+    height: 1370px;
+    margin: 28.25px auto 30px;
+  }
+}
+@media (max-width: 530px) {
+  .possibilities {
+    height: 1640px;
+  }
+}
 .brandsslider__card {
   height: 438px;
   max-width: 319.83px;

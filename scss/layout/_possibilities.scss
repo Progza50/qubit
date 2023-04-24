@@ -1,16 +1,61 @@
-.possibilities__card {
-	width: 19.17%;
-	max-width: 276px;
-	height: 173px;
+.possibilities {
+	height: 845px;
+	width: 100%;
 }
-.possibilities__card-icon {
-
+.possibilities__title {
+	text-align: center;
+	padding: 93.75px 0px 0px;
+}
+.possibilities__cards {
+	@include flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	column-gap: 15px;
+	row-gap: 50px;
+	height: 528px;
+	width: 100%;
+	max-width: 1020px;
+	margin: 28.25px auto 150px;
+}
+.possibilities__card {
+	width: 276px;
+	height: 173px;
+	margin: 30px 0px 0px;
 }
 .possibilities__card-title {
 	line-height: 45px;
 	margin: 4px 0px 0px;	
 }
 .possibilities__card-text {
+	min-height: 66px;
 	padding: 0px;
 	margin: 11px 0px 0px;
+}
+@media (max-width: 887px) {
+	.possibilities {
+		height: 930px;
+	}
+	.possibilities__title {
+		padding: 70px 0px 0px;
+	}
+	.possibilities__cards {
+		justify-content: space-around;
+		row-gap: 30px;
+		height: 710px;
+		margin: 28.25px auto 30px;
+	}
+}
+@media (max-width: 596px) {
+	.possibilities {
+		height: 1590px;
+	}
+	.possibilities__cards {
+		height: 1370px;
+		margin: 28.25px auto 30px;
+	}
+}
+@media (max-width: 530px) {
+	.possibilities {
+		height: 1640px;
+	}
 }
