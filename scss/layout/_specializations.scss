@@ -1,7 +1,36 @@
+.specializations {
+	height: 1003px;
+	width: 100%;
+}
+.specializations__container {
+	@include flex;
+	flex-direction: column;
+	align-items: center;
+}
+.specializations__title {
+	padding: 94px 0px 0px;
+}
+.specializations__text {
+	line-height: 30px;
+	margin: 12px 0px 0px;
+}
+.specializations__cards {
+	@include flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	column-gap: 30px;
+	row-gap: 30px;
+	height: 687px;
+	width: 100%;
+	max-width: 980px;
+	margin: 50px 0px 84.75px 0px;
+}
 .specializations__card {
+	align-items: flex-start;
 	height: 199px;
 	max-width: 460px;
-	width: 31.94%;
+	width: 46.94%;
 	background-color: $dark-indigo;
 	border-radius: 8px 10px 10px 8px;
 }
@@ -12,7 +41,7 @@
 	min-height: 109px;
 	max-width: 400px;
 	width: 100%;
-	margin: 30.25px 30px 0px;
+	padding: 30.25px 30px 0px;
 }
 .specializations__card-head {
 	@include flex;
@@ -26,8 +55,8 @@
 	width: 50px;
 }
 .specializations__card-icon img {
-	height: 50px;
-	width: 50px;
+	height: 100%;
+	width: auto;
 }
 .specializations__card-tytle {
 	color: $white;
@@ -41,7 +70,45 @@
 	line-height: 25px;
 	color: $white;
 	height: 22px;
-	width: 358px;
 	border-bottom: 2px solid $white;
-	margin: 10px 0px 25px 30px;
+	margin: 10px 30px 25px;
+}
+@media (max-width: 832px) {
+	.specializations__card-link {
+		font-size: 12px;
+	}
+}
+@media (max-width: 698px) {
+	.specializations {
+		height: 1666px;
+	}
+	.specializations__title {
+		padding: 70px 0px 0px;
+	}
+	.specializations__cards {
+		height: 1374px;
+	}
+	.specializations__card {
+		width: 100%;
+	}
+	.specializations__card-link {
+		font-size: 15px;
+	}
+}
+@media (max-width: 574px) {
+	.specializations {
+		height: 1710px;
+	}
+	.specializations__container {
+		flex: none;
+	}
+	.specializations__title {
+		text-align: center;
+	}
+	.specializations__text {
+		text-align: center;
+	}
+	.specializations__cards {
+		margin: 30px 0px 70px 0px;
+	}
 }
