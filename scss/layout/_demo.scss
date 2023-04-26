@@ -1,0 +1,25 @@
+.demo {
+	height: 329px;
+	width: 100%;
+	background-image: url("../../img/demo/1.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.demo__container {
+	@include flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.demo__title {
+	color: $white;
+	padding: 93px 0px 0px;
+}
+.demo__form {
+	@include flex;
+	justify-content: center;
+	align-items: center;
+	height: 45px;
+	width: 465px;
+	margin: 39px 0px 107px;
+}
