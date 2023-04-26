@@ -1,0 +1,286 @@
+.footer {
+	height: 709px;
+	width: 100%;
+}
+.footer__connection {
+	height: 162px;
+	width: 100%;
+}
+.footer__connection-container {
+	@include flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer__text {
+	color: $gray-dark;
+	font-size: 16px;
+	line-height: 45px;
+	padding: 29px 0px 0px;
+}
+.footer__icons {
+	@include flex;
+	justify-content: space-between;
+	align-items: end;
+	height: 33px;
+	width: 210px;
+	margin: 15.25px 0px 39.75px;
+}
+.footer__icon_facebook {
+
+}
+.footer__icon_twitter {
+
+}
+.footer__icon_linkedin {
+
+}
+.footer__icon_instagram {
+
+}
+.footer__icon_youtube {
+
+}
+.footer__main {
+	background-color: $indigo;
+	color: $white;
+	height: 547px;
+	width: 100%;
+}
+.footer__main-container {
+	@include flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer__menu {
+	@include flex;
+	justify-content: space-between;
+	align-items: start;
+	height: 350px;
+	width: 100%;
+	padding: 50px 50px 0px;
+}
+.footer__menu_left {
+	@include flex;
+	justify-content: space-between;
+	align-items: start;
+	height: 100%;
+	max-width: 430px;
+	width: 38.74%;
+}
+.footer__capabilities_left {
+	height: 100%;
+	max-width: 190px;
+	width: 44.19%;
+}
+.menu {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 21px;
+}
+.footer__li {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 11px 0px 0px;
+}
+.footer__li:first-child {
+	margin: 30px 0px 0px;
+}
+.menu__item {
+	color: $white;
+}
+.footer__capabilities_right {
+	height: 100%;
+	max-width: 190px;
+	width: 44.19%;
+	margin: 21px 0px 0px;
+}
+.footer__menu_middle {
+	@include flex;
+	justify-content: space-between;
+	align-items: start;
+	height: 100%;
+	max-width: 323px;
+	width: 29.1%;
+}
+.footer__products {
+	height: 100%;
+	max-width: 190px;
+	width: 58.82%;
+}
+.footer__resources {
+	height: 100%;
+	width: 83px;
+}
+.footer__menu_right {
+	@include flex;
+	justify-content: space-between;
+	align-items: start;
+	height: 100%;
+	max-width: 257px;
+	width: 23.15%;
+}
+.footer__company {
+	height: 100%;
+	width: 82px;
+}
+.footer__work {
+	height: 100%;
+	max-width: 125px;
+	width: 48.64%;
+}
+.menu__work {
+	font-weight: 400;
+}
+.footer__logo {
+	margin: 50px 0px 0px;
+}
+.footer__footer {
+	@include flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30px;
+	width: 100%;
+	margin: 24px 0px 50px;
+}
+.footer__icon {
+	height: 18px;
+	width: auto;
+}
+.footer__copyright {
+	height: 30px;
+	width: 210px;
+	font-size: 13px;
+	line-height: 30px;
+}
+.footer__empty {
+	height: 18px;
+	width: 18px;
+}
+@media (max-width: 1020px) {
+	.footer__main {
+		height: 797px;
+	}
+	.footer__menu {
+		flex-wrap: wrap;
+		justify-content: center;
+		column-gap: 70px;
+		row-gap: 50px;
+		height: 600px;
+	}
+	.footer__menu_left {
+		height: 300px;
+		width: 430px;
+	}
+	.footer__menu_middle {
+		height: 300px;
+		max-width: 323px;
+		width: 31.67%;
+	}
+	.footer__menu_right {
+		height: 200px;
+		width: 257px;
+	}
+}
+@media (max-width: 948px) {
+	.footer__main {
+		height: 1030px;
+	}
+	.footer__menu {
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
+		height: 820px;
+	}
+	.footer__menu_left {
+		height: 270px;
+		width: 430px;
+	}
+	.footer__menu_middle {
+		height: 200px;
+		width: 430px;
+		max-width: none;
+	}
+	.footer__products {
+		width: 190px;
+	}
+	.footer__resources {
+		width: 190px;
+	}
+	.footer__menu_right {
+		width: 430px;
+		max-width: none;
+	}
+	.footer__company {
+		width: 190px;
+	}
+	.footer__work {
+		max-width: none;
+		width: 190px;
+	}
+}
+@media (max-width: 558px) {
+	.footer__main {
+		height: 1590px;
+	}
+	.footer__menu {
+		column-gap: 0px;
+		row-gap: 0px;
+		height: 1640px;
+		width: 430px;
+		padding: 80px 0px 0px;
+	}
+	.footer__menu_left {
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
+		height: 450px;
+	}
+	.footer__capabilities_left {
+		height: 261px;
+		max-width: none;
+		width: 190px;
+	}
+	.footer__capabilities_right {
+		height: 190px;
+		max-width: none;
+		width: 190px;
+		margin: 0px;
+	}
+	.footer__capabilities_right	.footer__li:first-child {
+			margin: 11px 0px 0px;
+		}
+	.footer__menu_middle {
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
+		height: 422px;
+		margin: 50px 0px 0px;
+	}
+	.footer__products {
+		height: 190px;
+	}
+	.footer__resources {
+		height: 162px;
+		margin: 50px 0px 0px;
+	}
+	.footer__menu_right {
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
+		height: 314px;
+		width: 430px;
+		max-width: none;
+		margin: 50px 0px 0px;
+	}
+	.footer__company {
+		height: 192px;
+	}
+	.footer__work {
+		height: 80px;
+		margin: 50px 0px 0px;
+	}
+	.footer__logo {
+		margin: 80px 0px 0px;
+	}
+}
