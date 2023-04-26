@@ -1,0 +1,11 @@
+.achievements {
+	@include flex;
+	justify-content: center;
+	align-items: center;
+	height: 182px;
+	width: 100%;
+}
+.achievements img {
+	height: 100%;
+	width: auto;
+}

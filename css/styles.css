@@ -1225,3 +1225,16 @@ body {
   width: 465px;
   margin: 39px 0px 107px;
 }
+
+.achievements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 182px;
+  width: 100%;
+}
+
+.achievements img {
+  height: 100%;
+  width: auto;
+}
